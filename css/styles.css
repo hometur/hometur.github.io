@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "MontserratLight"; 
+    src: url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+
+@font-face {
+    font-family: "MontserratBlack"; 
+    src: url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+  } 
+
+@font-face {
+    font-family: "MontserratRegular"; 
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+
+* {
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем поля */
+    box-sizing: border-box; /* Изменяем модель коробки для более удобного расчета размеров */
+}
+
+body {
+    color: #ffffff; /* Белый цвет текста */
+    background: url('../images/background.jpg') no-repeat center center/cover; /* Фоновое изображение с покрытием всей секции */
+}
+
+header {
+    padding: 20px 50px; /* Отступы внутри шапки сайта */
+    color: #ffffff; /* Цвет текста */
+}
+
+nav {
+    display: flex; /* Используем Flexbox для выравнивания элементов */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Выравниваем элементы по центру вертикально */
+}
+
+.logo {
+    font-family: "MontserratRegular";
+    font-size: 1.5em; /* Размер шрифта для логотипа */
+    color: #C99244; /* Цвет логотипа */
+}
+
+.nav-links {
+    list-style: none; /* Убираем маркеры списка */
+    display: inline-flex; /* Делаем список горизонтальным и инлайновым */
+    justify-content: center; /* Выравниваем ссылки по центру */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Отступ между ссылками */
+}
+
+.nav-links a {
+    font-family: "MontserratLight";
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #ffffff; /* Белый цвет текста */
+    font-size: 1.2em; /* Размер шрифта */
+    transition: color 0.3s; /* Плавный переход цвета при наведении */
+}
+
+.nav-links a:hover {
+    color: #C69651; /* Цвет текста при наведении */
+}
+
+.contact-btn .whatsapp-btn {
+    font-family: "MontserratLight";
+    background-color: #C69651; /* Фон кнопки WhatsApp */
+    color: #000; /* Черный цвет текста на кнопке */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    border-radius: 25px; /* Скругляем углы кнопки */
+    text-decoration: none; /* Убираем подчеркивание текста на кнопке */
+    transition: background-color 0.3s; /* Плавный переход фона при наведении */
+}
+
+.contact-btn .whatsapp-btn:hover {
+    background-color: #ffb300; /* Цвет фона кнопки при наведении */
+}
+
+.hero {
+    height: calc(100vh - 80px); /* Высота секции равна высоте экрана минус высота шапки */
+    display: flex; /* Используем Flexbox для выравнивания контента */
+    align-items: center; /* Выравниваем контент по центру вертикально */
+    justify-content: space-around; /* Выравниваем контент по центру горизонтально */
+    text-align: center; /* Текст в центре */
+    flex-direction: column;
+}
+
+.hero-content h1 {
+    font-family: "MontserratBlack";
+    font-size: 3em; /* Размер шрифта для заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.hero-content p {
+    font-family: "MontserratLight";
+    font-size: 1.5em; /* Размер шрифта для текста */
+    max-width: 600px; /* Максимальная ширина текста */
+    line-height: 1.5; /* Межстрочный интервал */
+}
+
+.contact-btn .call-btn {
+    font-family: "MontserratLight";
+    border: 1px solid;
+    border-color: #C69651;
+    color: #000; /* Черный цвет текста на кнопке */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    border-radius: 25px; /* Скругляем углы кнопки */
+    text-decoration: none; /* Убираем подчеркивание текста на кнопке */
+    transition: background-color 0.3s; /* Плавный переход фона при наведении */
+}
+
+.contact-btn .call-btn:hover {
+    background-color: #ffb300; /* Цвет фона кнопки при наведении */
+}
