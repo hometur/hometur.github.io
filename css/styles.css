@@ -76,11 +76,13 @@ nav {
     padding: 10px 20px; /* Отступы внутри кнопки */
     border-radius: 25px; /* Скругляем углы кнопки */
     text-decoration: none; /* Убираем подчеркивание текста на кнопке */
-    transition: background-color 0.3s; /* Плавный переход фона при наведении */
+    transition: color 0.3s; /* Плавный переход цвета при наведении */
+    transition: border-color 0.3s; /* Плавный переход цвета при наведении */
 }
 
 .contact-btn .whatsapp-btn:hover {
-    background-color: #ffb300; /* Цвет фона кнопки при наведении */
+    color: #FFB142;
+    border-color: #FFB142; /* Цвет фона кнопки при наведении */
 }
 
 .hero {
@@ -113,5 +115,10 @@ nav {
     padding: 10px 20px; /* Отступы внутри кнопки */
     border-radius: 25px; /* Скругляем углы кнопки */
     text-decoration: none; /* Убираем подчеркивание текста на кнопке */
-    transition: background-color 0.3s; /* Плавный переход фона при наведении */
+    transition: color 0.3s; /* Плавный переход цвета при наведении */
+    transition: border-color 0.3s; /* Плавный переход цвета при наведении */
 }
+
+.contact-btn .call-btn:hover {
+    color: #FFB142;
+    border-color: #FFB142; 
