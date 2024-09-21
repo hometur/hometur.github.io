@@ -109,13 +109,9 @@ nav {
     font-family: "MontserratLight";
     border: 1px solid;
     border-color: #C69651;
-    color: #000; /* Черный цвет текста на кнопке */
+    color: #BC9D71; /* Черный цвет текста на кнопке */
     padding: 10px 20px; /* Отступы внутри кнопки */
     border-radius: 25px; /* Скругляем углы кнопки */
     text-decoration: none; /* Убираем подчеркивание текста на кнопке */
     transition: background-color 0.3s; /* Плавный переход фона при наведении */
-}
-
-.contact-btn .call-btn:hover {
-    background-color: #ffb300; /* Цвет фона кнопки при наведении */
 }
