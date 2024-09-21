@@ -71,9 +71,10 @@ nav {
 
 .contact-btn .whatsapp-btn {
     font-family: "MontserratLight";
-    background-color: #C69651; /* Фон кнопки WhatsApp */
-    color: #000; /* Черный цвет текста на кнопке */
-    padding: 10px 20px; /* Отступы внутри кнопки */
+    border: 1px solid;
+    border-color: #C69651;
+    color: #BC9D71; /* Черный цвет текста на кнопке */
+    padding: 9px 17px; /* Отступы внутри кнопки */
     border-radius: 25px; /* Скругляем углы кнопки */
     text-decoration: none; /* Убираем подчеркивание текста на кнопке */
     transition: color 0.3s; /* Плавный переход цвета при наведении */
